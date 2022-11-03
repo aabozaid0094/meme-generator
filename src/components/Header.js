@@ -1,6 +1,6 @@
 const Header = (props) => {
     return (
-        <header>
+        <header className="app-header">
             <div className="logo-title">
                 <img className="logo" src={props.logo_src} />
                 <h1 className="header-title">{props.title}</h1>
