@@ -35,3 +35,72 @@
     margin: 0.5rem;
     font-weight: 400;
 }
+
+.app-main {
+    padding: 3rem;
+}
+@media (max-width: 991px) {
+    .app-main {
+        padding: 2.5rem;
+    }
+}
+@media (max-width: 767px) {
+    .app-main {
+        padding: 2rem;
+    }
+}
+@media (max-width: 550px) {
+    .app-main {
+        padding: 1.5rem;
+    }
+}
+@media (max-width: 400px) {
+    .app-main {
+        padding: 1rem;
+    }
+}
+@media (max-width: 320px) {
+    .app-main {
+        padding: 0.5rem;
+    }
+}
+.captions-form {
+    text-align: center;
+}
+.captions-form .form-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.captions-form .form-group > * {
+    flex-grow: 1;
+    margin: 0.5rem;
+}
+.captions-form .form-input {
+    line-height: 1.5;
+    padding: 0.5rem;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.captions-form .form-button {
+    line-height: 1.5;
+    padding: 0.5rem 2rem;
+    font-size: 20px;
+    color: #fff;
+    background-image: linear-gradient(to right, #67227f, #a526d2);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.meme-result {
+    margin: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 0 8px 0 rgba(128, 128, 128, 0.5);
+    border-radius: 0.5rem;
+}
+.meme-result .meme-result-image{
+    max-width: 100%;
+    border-radius: 0.5rem;
+}
