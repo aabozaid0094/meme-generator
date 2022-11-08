@@ -97,10 +97,26 @@
     margin: 0.5rem;
     padding: 1rem;
     text-align: center;
+    position: relative;
     box-shadow: 0 0 8px 0 rgba(128, 128, 128, 0.5);
     border-radius: 0.5rem;
 }
-.meme-result .meme-result-image{
+.meme-result .meme-result-image {
     max-width: 100%;
     border-radius: 0.5rem;
+}
+.meme-result .top-text,
+.meme-result .bottom-text {
+    position: absolute;
+    left: 50%;
+    font-size: 36px;
+    color: #fff;
+    -webkit-text-stroke: 2px #000;
+    transform: translate(-50%);
+}
+.meme-result .top-text {
+    top: 5%;
+}
+.meme-result .bottom-text {
+    bottom: 5%;
 }
