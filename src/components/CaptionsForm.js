@@ -13,7 +13,7 @@ const CaptionsForm = (props) => {
                 <input
                     className="form-input"
                     type="text"
-                    placeholder="Buttom Text"
+                    placeholder="Bottom Text"
                     name="bottom_text"
                     value={props.meme.bottom_text}
                     onChange={props.handle_change}
